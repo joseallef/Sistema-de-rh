@@ -1,0 +1,457 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color: rgba(130,130,255,0.2);
+}
+.fundo img {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	z-index: 0;
+	vertical-align: top;
+}
+
+
+span {
+	position: relative;
+	top: 15%;
+	right: 2%;
+	float: right;
+	font-size: 20px;
+	box-shadow: 0 0 20px #000;
+	border-radius: 10px;
+	padding: 10px;
+}
+/* Conteúdo do login  */
+
+#tud {
+	position: absolute;
+	width: 450px;
+	height: 250px;
+	border: 1px solid #000;
+	top: 50%;
+	left: 50%;
+	margin-top: -150px;
+	margin-left: -225px;
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: 0 0 50px #000;
+	padding: 10px;
+
+}
+
+#close {
+	position: absolute;
+	text-align: center;
+	right: 0;
+	background: #999;
+	font-size: 25px;
+	padding: 1px;
+	cursor: pointer;
+	border-radius: 4px;
+	width: 30px;
+	height: 30px;
+	margin-top: 0px;
+}
+
+#close:hover {
+	opacity: .7
+
+}
+
+#tud input {
+	position: relative;
+	top: 20px;
+	width: 390px;
+	padding: 13px;
+	border: 1px dotted #000;
+	border-radius: 5px;
+	background: #eef;
+	margin: 13px;
+}
+
+#tud form .input {
+	width: 190px;
+	margin: 10px 10px 10px 10px 0 auto;
+
+}
+
+/* Conteúdo da página inicial INDEX */
+
+.tudo {
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+}
+
+.top {
+	position: fixed;
+	top: 1px;
+	height: 90px;
+	width: 100%;
+	background: #F2B500;
+	border-radius: 2px;
+	margin: 2px 2px 0px 1px;
+	color: #fff;
+	z-index: 2;
+	box-shadow: 0 0 8px #000;
+}
+.top img {
+	width: 260px;
+	height: 90px;
+	float: left;
+	border-radius: 0px 60px 0px 35px;
+
+}
+
+/* Conteúdo LATERAL */
+
+.left {
+	position: fixed;
+	top: 97px;
+	height: 100%;
+	width: 200px;
+	background: #222222;
+	border-right: 4px solid #F2B500;
+	margin: 0px;
+	padding: 30px;
+	box-shadow: 0 0 10px #222;
+
+}
+ul a img {
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+
+a {
+	margin: 0 auto;
+	margin-bottom:  30px;
+	font-size: 20px;
+	background: #888;
+	border-radius: 3px;
+	text-decoration: none;
+	color: #ddd;
+	
+}
+a:hover {
+		background: #aaa;
+		color: #fff;
+}
+.left {
+	margin-left: 2px;
+}
+
+.left ul
+{
+    width: 100%;
+    position: relative;
+    list-style: none;
+}
+
+.left ul h2
+{
+    margin-bottom:  10px;
+    font-size: 32px;
+    font-weight: 400;
+    color: rgb(150,150,150);
+    text-align: center;
+}
+.left ul a
+{
+    width: 100%;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 400;
+    color: rgb(240,240,240);
+    display: flex;
+    align-items: center;
+
+}
+
+.left ul a img
+{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.left ul a li 
+{
+    width: 100%;
+    display: inline-block;
+    padding: 4px 10px;
+    transition: 0.15s all;
+    margin: 5px 0;
+}
+
+ul a:hover
+{
+    background: #505050;
+}
+
+/* Conteúdo DO CENTRO */
+form {
+	position: absolute;
+	margin: 10% 40% auto;	
+	width: 460px;
+	border-radius: 5px;
+	padding: 30px;
+	background: #FFF;
+	text-align: center;
+	box-shadow: 0 0 20px #eee;
+
+}
+ #cont form {
+	position: relative;
+	margin: 0 auto;	
+	width: 700px;
+	border-radius: 5px;
+	padding: 30px;
+	background: #FFF;
+	text-align: center;
+	box-shadow: 0 0 10px #ddd;
+
+}
+option {
+	margin: 0 auto;
+	background: #eef;
+	float: right;
+}
+
+ul a img {
+	width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin-left: 15px;
+}
+ ul a
+{
+    width: 50%;
+    font-size: 19px;
+    text-decoration: none;
+    font-weight: 400;
+    color: rgb(240,240,240);
+    display: flex;
+    align-items: center;
+
+}
+ul a li 
+{
+    width: 100%;
+    display: inline-block;
+    padding: 4px 10px;
+    transition: 0.15s all;
+    margin: 5px 0;
+}
+
+#cont ul .div1 a 
+{
+    width: 22%;
+    display: inline-block;
+    padding: 5px 10px;
+    transition: 0.15s all;
+    margin: 5px;
+    float: left;
+}
+
+#cont ul .div2 a 
+{
+    width: 30%;
+    display: inline-block;
+    padding: 4px 10px;
+    transition: 0.15s all;
+    margin: 6px;
+    float: left;
+}
+
+ul a img
+{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+
+input {
+	width: 400px;
+	padding: 10px;
+	margin: 10px;
+	border: dotted 1px #000;
+	border-radius: 5px;
+	background: #DDF;
+}
+
+.botao {
+	width: 150px;
+	background: #555;
+	float: right;
+	text-align: center;
+}
+
+form .botao {
+	width: 150px;
+	background: #555;
+	float: right;
+}
+
+form  .botao:hover {
+	background: #000;
+	color: white;
+	border: 1px solid black;
+}
+
+#cont {
+	position: relative;
+	margin: 12% 330px auto;
+	width: 70%;
+	border-radius: 5px;
+	padding: 30px;
+	background: #FFF;
+	font-size: 20px;
+	color: #999;
+	box-shadow: 0 0 30px #aaa;
+}
+.tudo fieldset {
+	padding: 10px;
+	border-radius: 5px;
+
+}
+.tudo fieldset input{
+	margin: 10px;
+	width: 20px;
+	float: center;
+}
+
+.tudo fieldset .fort{
+	margin: 10px;
+	width: 150px;
+	float: center;
+}
+
+#tudo #cont input .botao{
+	margin-right: 20px;
+
+}
+.tudo form #cont #bod {
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 100%;
+	height: 100%;
+}
+/* CONFIGURAÇÃO DE ALERTA */	
+
+nav {
+	position: absolute;
+	width: 450px;
+	height: 250px;
+	border: 1px solid #000;
+	top: 50%;
+	left: 50%;
+	margin-top: -150px;
+	margin-left: -225px;
+	border-radius: 5px;
+	background: #EEE;
+	box-shadow: 0 0 50px #555;
+	padding: 10px;
+	font-size: 30px;
+	color: #0f0;
+
+}
+#t {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(100 ,150 , 150, 0.7);
+	z-index: 2;
+}
+nav a {
+	position: relative;
+	background: #000;
+	color: #fff;
+	top: 60%;
+	float: right;
+	width: 100px;
+	text-align: center;
+}
+.tudo form #t{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(100 ,150 , 150, 0.4);
+	z-index: 5;
+}
+table {
+	margin: 0 auto;
+	position: center;
+	text-align: center;
+	float: center;
+	font-size: 20px;
+	border-collapse: collapse;
+	z-index: 2;
+}
+
+th {
+	background: #F2B500;
+	color: #fff;
+}
+td {
+	background: #eee;
+	width: 400px;
+	border-left: 1px solid white;
+	text-align: center;
+	padding: 0px;
+}
+td:hover {
+	background: #ccc;
+}
+
+#conteudo {
+	position: relative;
+	margin: 12% 330px auto;
+	width: 70%;
+	border-radius: 5px;
+	padding: 30px;
+	background: #FFF;
+	font-size: 20px;
+	color: #999;
+	box-shadow: 0 0 30px #aaa;
+}
+
+#conteudo form{
+	position: relative;
+	margin: 0 auto;	
+	width: 700px;
+	border-radius: 5px;
+	padding: 30px;
+	background: #FFF;	
+	box-shadow: 0 0 10px #ddd;
+}
+#conteudo form .def {
+	width: 30px;
+	padding: 40px;
+}
+.fort {
+	margin: 10px;
+	width: 150px;
+	float: center;
+}
+.op2 span {
+	position: relative;
+	top: 10px;
+	margin-right: 31.5%;
+	font-size: 30px;
+	box-shadow: 0 0 20px #ddd;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#conteudo .op2 img {
+	width: 100px;
+	height: 60px;
+}
